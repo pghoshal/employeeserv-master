@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/employeeserv.iml" filepath="$PROJECT_DIR$/employeeserv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeservApi/employeeservApi.iml" filepath="$PROJECT_DIR$/employeeservApi/employeeservApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeservCommon/employeeservCommon.iml" filepath="$PROJECT_DIR$/employeeservCommon/employeeservCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeservFunctionalTests/employeeservFunctionalTests.iml" filepath="$PROJECT_DIR$/employeeservFunctionalTests/employeeservFunctionalTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeservImplementation/employeeservImplementation.iml" filepath="$PROJECT_DIR$/employeeservImplementation/employeeservImplementation.iml" />
+    </modules>
+  </component>
+</project>

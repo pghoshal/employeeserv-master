@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employeeservApi" />
+        <module name="employeeservFunctionalTests" />
+        <module name="employeeservImplementation" />
+        <module name="employeeservCommon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employeeserv" target="1.8" />
+      <module name="employeeservApi" target="1.8" />
+      <module name="employeeservCommon" target="1.8" />
+      <module name="employeeservFunctionalTests" target="1.8" />
+      <module name="employeeservImplementation" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="employeeservApi" options="-parameters" />
+      <module name="employeeservCommon" options="-parameters" />
+      <module name="employeeservFunctionalTests" options="-parameters" />
+      <module name="employeeservImplementation" options="-parameters" />
+    </option>
+  </component>
+</project>

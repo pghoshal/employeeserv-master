@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Employee-test-suite" >
+    <test name="ToolsQA" >
+        <classes>
+            <class name= "test.CreateEmployeeTest"/>
+            <class name="test.GetEmployeeTest"/>
+        </classes>
+    </test>
+</suite>
